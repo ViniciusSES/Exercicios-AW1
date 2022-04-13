@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+    <body>
+        <form action="http://www.example.com/login.php" method="post">
+            <fieldset>
+            <legend>Login</legend>
+            <p><label for="nome_id">Nome do usuário: </label>
+                <input type="text" name="username" size="20" maxlengh="30" id="nome_id"
+                placeholder="Digite seu nome aqui."title="Insira seu nome" required/>
+            </p>
+            <p>
+            <label for="username">Data de Nascimento:</label>
+            <input type="date" name="nasc"/>
+            </p>
+            <label for="username">E-mail:</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail aqui."/>
+            <p>Senha:
+                    <input type="password" name="password" size="20" maxlength="30"
+                    placeholder="Digite a sua senha." required/>
+            </p>
+            </fieldset>
+            <p>O que achou do conteúdo?</p>
+            <textarea name="comments" cols="25" rows="3"
+            placeholder="Comente..."></textarea>
+            <p>Selecione o gênero de filme favorito:
+                <br>
+                <input type="radio" name="genre" value="ação"/> Ação
+                <input type="radio" name="genre" value="velho-oeste"/> Velho-Oeste
+                <input type="radio" name="genre" value="suspense" checked="checked"/> Suspense
+            </p>
+            <p>
+                Marque o(s) serviço(s) de Streaming mais utilizado(s) por você:
+                <br>
+                <input type="checkbox" name="service" value="netflix"/> Netflix
+                <input type="checkbox" name="service" value="hbomax"/> HBO MAX
+                <input type="checkbox" name="service" value="primevideo"/> Prime Video
+            </p>
+            <p>Em qual dispositivo você costuma assistir filmes?</p>
+            <select name="devices">
+                <optgroup label="Dispositivos Fixos">
+                    <option value="tv">TV</option>
+                    <option value="computador">Computador</option>
+                </optgroup>
+                        <optgroup label="Dispositivos Móveis">
+                            <option value="celular">Celular</option>
+                            <option value="tablet">Tablet</option>
+                            <option value="laptop">Laptop</option>
+                        </optgroup>
+            </select>
+            <br><br>
+            <label for="nome_ator">Escolha um ator favorito: </label>
+            <input type="text" name="ator" id="nome_ator" list="atores">
+            <datalist id="atores">
+                <option value="The Rock" label="The Rock"></option>
+                <option value="Robert Pattinson" label="Robert Pattinson"></option>
+                <option value="Robert Downey Jr." label="Robert Downey Jr."></option>
+            </datalist>
+            <p>Upload de arquivo de video:</p>
+            <input type="file" name="user-video"/><br>
+            <input type="submit" value="upload"/>
+        </form>
+    </body>
+</html>

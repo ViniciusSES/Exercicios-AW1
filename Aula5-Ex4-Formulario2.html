@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+</head>
+    <body>
+        <body>
+            <form action="http://www.example.com/login.php" method="post">
+                <fieldset>
+                <legend><b>Identificação do Usuário</b></legend>
+                <p><label for="nome_id">Nome*: </label>
+                    <input type="text" name="username" size="20" maxlengh="30" id="nome_id"
+                    placeholder="Digite seu nome aqui."title="Insira seu nome" required/>
+                </p>
+                <p>Senha*:
+                    <input type="password" name="password" size="20" maxlength="30"
+                    placeholder="Digite a sua senha." required/>
+                <p>CPF*:
+                    <input type="cpf" name="cpf" size="12" maxlength="12"
+                    placeholder="Digite seu CPF." required/>
+                <p>Sexo*
+                    <br>
+                    <input id="male" type="radio" name="genre" value="m" required/> -Masculino
+                    <br>
+                    <input id="female" type="radio" name="genre" value="f" required/> -Feminino
+                </p>
+                <p>
+                <label for="username">Data de Nascimento*:</label>
+                <input type="date" name="nasc"/>
+                </p>
+                <p>Estado Civil*:
+                    <input type="text" name="estado_civil" size="20" maxlength="20" required/>
+                </p>
+                <p>Escolaridade:
+                    <input type="text" name="escolaridade" size="20" maxlength="20"/>
+                </p>
+                <p>Ocupação Principal:
+                    <input type="text" name="ocupação" size="20" maxlength="20"/>
+                </p>
+                <p>Número de Dependentes:
+                    <input type="number" name="dependentes"/>
+                </p>
+                <p>Telefone*:
+                    <input type="text" name="tel" size="14" maxlength="14" required/>
+                </p>
+                    <label for="username">E-mail*:</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail aqui."/>
+                </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Localização</legend>
+                    <p>Estado*:
+                        <input type="text" name="estado" size="20" maxlength="20" required/>
+                    <p>Cidade*:
+                        <input type="text" name="cidade" size="20" maxlength="20" required/>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Mensagem do Usuário</b></legend>
+                    <p>Grau de Urgência:
+                        <input type="text" name="estado" size="20" maxlength="20"/>
+                    <p>Mensagem*:</p>
+                        <textarea name="mensagem" cols="20" rows="5" placeholder="Digite a mensagem..." required></textarea> 
+                    <p>Reportar Erro
+                    <input type="file" name="error_report"/>
+                    </p>
+                    <input type="text" name="enviar"/>
+                    <input type="submit" name="enviar"/>
+                    <input type="text" name="limpar"/>
+                    <input type="reset" name="limpar"/>
+                </fieldset>
+                    <p>*Preenchimento obrigatório</p>
+    </body>
+</html>

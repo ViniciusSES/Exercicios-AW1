@@ -1,0 +1,19 @@
+a.stl1:hover{
+    color: green;
+}
+
+a.stl2:hover{
+    font-size: large;
+}
+
+a.stl3:hover{
+    background-color:aqua;
+}
+
+a.stl4:hover{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+a.stl5:hover{
+    border-style: dotted;
+}

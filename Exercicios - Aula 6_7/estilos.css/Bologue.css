@@ -36,7 +36,12 @@ figcaption{
 }
 
 article{
+    width: 70%;
     margin: 30px;
+}
+
+#comentario2{
+    text-align: end;
 }
 
 footer{

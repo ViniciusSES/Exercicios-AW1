@@ -1,0 +1,19 @@
+h4 + p + p {
+    color: blue;
+}
+
+h4 + p + p + p {
+    color: blue;
+}
+
+h4 + p + p + p + h4{
+    color: red;
+}
+
+p + h4{
+    color: red;
+}
+
+/*h4 + h4{
+    
+}*/

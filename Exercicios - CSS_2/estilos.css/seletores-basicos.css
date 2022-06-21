@@ -33,7 +33,7 @@ ul > li{
     margin: 0 0 20px 0;
 }
 
-#conteudo > ul > p{
+#conteudo ~ p{
     color: red;
 }
 

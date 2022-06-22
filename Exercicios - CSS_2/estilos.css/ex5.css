@@ -1,0 +1,55 @@
+p {
+    color: green;
+    background-color: yellow;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+    width: 615px;
+    text-align: center;
+}
+
+table {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-style: solid;
+    border-color: green;
+    border-collapse: collapse;
+    background-image: linear-gradient(to top, rgb(161, 255, 161), white);
+    width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+table th {
+    border: 1px solid green;
+    width: 200px;
+}
+
+table td {
+    border: 1px solid green;
+}
+
+tr:hover {
+    color: green;
+    background-color: yellow;
+}
+
+img {
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+#time {
+    text-align: start;
+}
+
+#qtd {
+    text-align: center;
+}
+
+#ano {
+    text-align: end;
+}

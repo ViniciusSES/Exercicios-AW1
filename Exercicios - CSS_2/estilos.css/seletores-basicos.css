@@ -1,4 +1,4 @@
-html{
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -14,7 +14,7 @@ body{
 }
 
 li.cancelado{
-    text-decoration: underline;
+    text-decoration:line-through;
 }
 
 ul{
@@ -33,10 +33,7 @@ ul > li{
     margin: 0 0 20px 0;
 }
 
-#conteudo ~ p{
+ul + p{
     color: red;
-}
-
-body ul + p{
     font-style: italic;
 }
